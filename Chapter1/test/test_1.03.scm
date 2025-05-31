@@ -1,5 +1,5 @@
 #lang sicp
-(#%require "../src/1.03.rkt")
+(#%require "../src/1.03.scm")
 
 (define (assert expected actual)
   (= expected actual))
