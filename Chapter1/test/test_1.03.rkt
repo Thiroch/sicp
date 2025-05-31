@@ -7,3 +7,4 @@
 (display "Tests for f\n" )
 (assert 0 (f 0 0 0))
 (assert 2 (f 1 1 1))
+(assert 8 (f 2 2 2))
