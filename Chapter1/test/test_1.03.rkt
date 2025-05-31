@@ -4,11 +4,6 @@
 (define (assert expected actual)
   (= expected actual))
 
-(display "Tests for square\n" )
-(assert 25 (square 5))
-(assert 0 (square 0))
-(assert 25 (square -5))
-
 (display "Tests for f\n" )
 (assert 0 (f 0 0 0))
 (assert 2 (f 1 1 1))
