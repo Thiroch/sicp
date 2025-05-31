@@ -13,3 +13,4 @@
 (assert 0 (f 0 0 0))
 (assert 2 (f 1 1 1))
 (assert 8 (f 2 2 2))
+(assert 13 (f 1 2 3))

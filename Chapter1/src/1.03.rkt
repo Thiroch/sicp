@@ -6,4 +6,4 @@
   (* x x))
 
 (define (f a b c)
-  (+ (square a) (square b)))
+  (+ (square b) (square c)))
