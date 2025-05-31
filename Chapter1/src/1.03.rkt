@@ -1,5 +1,9 @@
 #lang sicp
-(#%provide f)
+(#%provide square
+           f)
+
+(define (square x)
+  (* x x))
 
 (define (f a b c)
-  (+ (* a a) (* b b)))
+  (+ (square a) (square b)))
