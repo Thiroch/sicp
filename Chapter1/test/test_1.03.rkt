@@ -16,3 +16,6 @@
 (assert 13 (f 1 2 3))
 (assert 13 (f 3 2 1))
 (assert 13 (f 3 1 2))
+(assert 25 (f -3 -4 -5))
+(assert 25 (f -5 -4 -3))
+(assert 25 (f -5 -3 -4))
