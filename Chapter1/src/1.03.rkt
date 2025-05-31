@@ -2,4 +2,4 @@
 (#%provide f)
 
 (define (f a b c)
-  0)
+  (+ (* a a) (* b b)))
