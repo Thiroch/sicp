@@ -8,15 +8,16 @@
 - [Racket](https://racket-lang.org/)
 - [SICP Collections](https://docs.racket-lang.org/sicp-manual/index.html)
 ## Solutions
+### Chapter 1
 
-| Chapter | Excercise | Note                         | Code                          | Test code                           |
-| ------- | --------- | ---------------------------- | ----------------------------- | ----------------------------------- |
-| 1       | 1.1       | [Note](Chapter1/doc/1.01.md) | [Code](Chapter1/src/1.01.scm) | -                                   |
-| 1       | 1.2       | [Note](Chapter1/doc/1.02.md) | [Code](Chapter1/src/1.02.scm) | -                                   |
-| 1       | 1.3       | -                            | [Code](Chapter1/src/1.03.scm) | [Code](Chapter1/test/test_1.03.scm) |
-| 1       | 1.4       | [Note](Chapter1/doc/1.04.md) | [Code](Chapter1/src/1.04.scm) | [Code](Chapter1/test/test_1.04.scm) |
-| 1       | 1.5       | [Note](Chapter1/doc/1.05.md) | [Code](Chapter1/src/1.05.scm) | -                                   |
-| 1       | 1.6       | [Note](Chapter1/doc/1.06.md) | [Code](Chapter1/src/1.06.scm) | -                                   |
-| 1       | 1.7       | [Note](Chapter1/doc/1.07.md) | [Code](Chapter1/src/1.07.scm) | -                                   |
-| 1       | 1.8       | [Note](Chapter1/doc/1.08.md) | [Code](Chapter1/src/1.08.scm) | [Code](Chapter1/test/test_1.08.scm) |
-| 1       | 1.9       | [Note](Chapter1/doc/1.09.md) | [Code](Chapter1/src/1.09.scm) | -                                   |
+| Excercise | Note                         | Code                          | Test code                           |
+| --------- | ---------------------------- | ----------------------------- | ----------------------------------- |
+| 1.1       | [Note](Chapter1/doc/1.01.md) | [Code](Chapter1/src/1.01.scm) | -                                   |
+| 1.2       | [Note](Chapter1/doc/1.02.md) | [Code](Chapter1/src/1.02.scm) | -                                   |
+| 1.3       | -                            | [Code](Chapter1/src/1.03.scm) | [Code](Chapter1/test/test_1.03.scm) |
+| 1.4       | [Note](Chapter1/doc/1.04.md) | [Code](Chapter1/src/1.04.scm) | [Code](Chapter1/test/test_1.04.scm) |
+| 1.5       | [Note](Chapter1/doc/1.05.md) | [Code](Chapter1/src/1.05.scm) | -                                   |
+| 1.6       | [Note](Chapter1/doc/1.06.md) | [Code](Chapter1/src/1.06.scm) | -                                   |
+| 1.7       | [Note](Chapter1/doc/1.07.md) | [Code](Chapter1/src/1.07.scm) | -                                   |
+| 1.8       | [Note](Chapter1/doc/1.08.md) | [Code](Chapter1/src/1.08.scm) | [Code](Chapter1/test/test_1.08.scm) |
+| 1.9       | [Note](Chapter1/doc/1.09.md) | [Code](Chapter1/src/1.09.scm) | -                                   |
