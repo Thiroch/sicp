@@ -19,3 +19,4 @@
 | 1       | 1.6       | [Note](Chapter1/doc/1.06.md) | [Code](Chapter1/src/1.06.scm) | -                                   |
 | 1       | 1.7       | [Note](Chapter1/doc/1.07.md) | [Code](Chapter1/src/1.07.scm) | -                                   |
 | 1       | 1.8       | [Note](Chapter1/doc/1.08.md) | [Code](Chapter1/src/1.08.scm) | [Code](Chapter1/test/test_1.08.scm) |
+| 1       | 1.9       | [Note](Chapter1/doc/1.09.md) | [Code](Chapter1/src/1.09.scm) | -                                   |
