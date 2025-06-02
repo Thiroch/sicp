@@ -2,4 +2,7 @@
 (#%provide f-recursive)
 
 (define (f-recursive n)
-  n)
+  (cond ((< n 3) n)
+        (else (+ (f-recursive (- n 1))
+                 (* 2 (f-recursive (- n 2)))
+                 (* 3 (f-recursive (- n 3)))))))
