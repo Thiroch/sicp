@@ -2,6 +2,7 @@
 
 * May contain mistakes.
 * May contain grammatical errors. (My first language is Japanese)
+* I'm not good at maths.
 ## Course
 [Structure and Interpretation of Computer Programs](https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/)
 ## Setup
