@@ -1,0 +1,48 @@
+#lang sicp
+(#%require "../src/1.13.scm")
+
+(define (assert name expected actual)
+  (display name)
+  (if (= expected actual)
+      (display "Pass\n")
+      (display "Fail\n")))
+
+(define (assert-close-enough name expected actual threshold)
+  (display name)
+  (if (< (abs (- expected actual)) threshold)
+      (display "Pass - ")
+      (display "Fail - "))
+  (display "Diff: ")
+  (display (abs (- expected actual)))
+  (display "\n"))
+
+(assert "pow base=1, exp=1: " 1 (pow 1 1))
+(assert "pow base=1, exp=2: " 1 (pow 1 2))
+(assert "pow base=2, exp=1: " 2 (pow 2 1))
+(assert "pow base=2, exp=2: " 4 (pow 2 2))
+(assert "pow base=9, exp=9: " 387420489 (pow 9 9))
+(assert "pow base=10, exp=0: " 1 (pow 10 0))
+(assert "pow base=10, exp=1: " 10 (pow 10 1))
+(assert "pow base=10, exp=10: " 10000000000 (pow 10 10))
+
+(display "\n")
+
+(define fib-approx-threshold 0.5)
+(assert-close-enough "fib-approx n=1: " 1 (fib-approx 1) fib-approx-threshold)
+(assert-close-enough "fib-approx n=2: " 1 (fib-approx 2) fib-approx-threshold)
+(assert-close-enough "fib-approx n=3: " 2 (fib-approx 3) fib-approx-threshold)
+(assert-close-enough "fib-approx n=4: " 3 (fib-approx 4) fib-approx-threshold)
+(assert-close-enough "fib-approx n=5: " 5 (fib-approx 5) fib-approx-threshold)
+(assert-close-enough "fib-approx n=10: " 55 (fib-approx 10) fib-approx-threshold)
+(assert-close-enough "fib-approx n=20: " 6765 (fib-approx 20) fib-approx-threshold)
+
+(display "\n")
+
+(define fib-threshold 0.01)
+(assert-close-enough "fib n=1: " 1 (fib 1) fib-threshold)
+(assert-close-enough "fib n=2: " 1 (fib 2) fib-threshold)
+(assert-close-enough "fib n=3: " 2 (fib 3) fib-threshold)
+(assert-close-enough "fib n=4: " 3 (fib 4) fib-threshold)
+(assert-close-enough "fib n=5: " 5 (fib 5) fib-threshold)
+(assert-close-enough "fib n=10: " 55 (fib 10) fib-threshold)
+(assert-close-enough "fib n=20: " 6765 (fib 20) fib-threshold)
