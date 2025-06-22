@@ -1,6 +1,5 @@
 #lang sicp
 (#%provide fast-*)
-(#%require racket/trace)
 
 (define (double n) (* n 2))
 (define (halve n) (/ n 2))
