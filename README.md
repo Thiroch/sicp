@@ -28,3 +28,6 @@
 | 1.13      | [Note](Chapter1/doc/1.13.md) | [Code](Chapter1/src/1.13.scm) | [Code](Chapter1/test/test_1.13.scm) |
 | 1.14      | [Note](Chapter1/doc/1.14.md) | -                             | -                                   |
 | 1.15      | [Note](Chapter1/doc/1.15.md) | -                             | -                                   |
+| 1.16      | -                            | [Code](Chapter1/src/1.16.scm) | [Code](Chapter1/test/test_1.16.scm) |
+| 1.17      | [Note](Chapter1/doc/1.17.md) | [Code](Chapter1/src/1.17.scm) | [Code](Chapter1/test/test_1.17.scm) |
+| 1.18      | -                            | [Code](Chapter1/src/1.18.scm) | [Code](Chapter1/test/test_1.18.scm) |
