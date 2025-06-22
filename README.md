@@ -31,3 +31,4 @@
 | 1.16      | -                            | [Code](Chapter1/src/1.16.scm) | [Code](Chapter1/test/test_1.16.scm) |
 | 1.17      | [Note](Chapter1/doc/1.17.md) | [Code](Chapter1/src/1.17.scm) | [Code](Chapter1/test/test_1.17.scm) |
 | 1.18      | -                            | [Code](Chapter1/src/1.18.scm) | [Code](Chapter1/test/test_1.18.scm) |
+| 1.19      | [Note](Chapter1/doc/1.19.md) | [Code](Chapter1/src/1.19.scm) | [Code](Chapter1/test/test_1.19.scm) |
